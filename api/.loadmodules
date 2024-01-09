@@ -1,0 +1,38 @@
+#!/bin/sh
+
+echo loading eth_proxy
+module load eth_proxy
+
+echo loading gcc
+module load gcc/8.2.0
+
+echo loading python
+module load python/3.9.9
+
+echo loading cuda
+module load cuda/12.1.1
+
+echo loading cudnn
+module load cudnn/8.9.2.26
+
+echo installing pytorch
+pip3 install torch torchvision torchaudio
+
+echo installing librosa
+pip3 install librosa
+
+echo installing fastapi
+pip3 install fastapi
+
+echo install python-multipart
+pip3 install python-multipart
+
+echo installing uvicorn
+pip3 install "uvicorn[standard]"
+
+echo installing shap-e
+pip3 install -e .
+
+sbatch --ntasks=4 --gpus=1 --gres=gpumem:10g --time=2:00:00 --mem-per-cpu=8000 --wrap="bash .start"
+
+squeue

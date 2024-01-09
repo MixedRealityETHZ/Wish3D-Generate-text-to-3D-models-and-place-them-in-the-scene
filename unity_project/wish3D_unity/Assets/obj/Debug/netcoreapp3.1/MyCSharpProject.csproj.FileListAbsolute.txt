@@ -1,0 +1,5 @@
+/Users/rupal/Documents/work/ML-alpha/Assets/obj/Debug/netcoreapp3.1/MyCSharpProject.csproj.AssemblyReference.cache
+/Users/rupal/Documents/work/ML-alpha/Assets/obj/Debug/netcoreapp3.1/MyCSharpProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rupal/Documents/work/ML-alpha/Assets/obj/Debug/netcoreapp3.1/MyCSharpProject.AssemblyInfoInputs.cache
+/Users/rupal/Documents/work/ML-alpha/Assets/obj/Debug/netcoreapp3.1/MyCSharpProject.AssemblyInfo.cs
+/Users/rupal/Documents/work/ML-alpha/Assets/obj/Debug/netcoreapp3.1/MyCSharpProject.csproj.CoreCompileInputs.cache

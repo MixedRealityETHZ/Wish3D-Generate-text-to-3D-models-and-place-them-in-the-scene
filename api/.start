@@ -1,0 +1,8 @@
+
+compute_ip=$(hostname -i)
+echo "${compute_ip}"
+
+echo "${compute_ip}" >> /cluster/home/winklerr/wish3d/app/compute_node_id
+
+echo starting api
+uvicorn main:app --host 127.0.0.1 --port 8080

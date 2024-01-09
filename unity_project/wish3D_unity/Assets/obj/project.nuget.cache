@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "X2k8bKBMk6lC55xtfcWpmmDjOcFWyJ33+P9FqPj+CtU7gzF9kx/mAB4OvThXeivOeFku0E3kkAqCdptJtqnUbg==",
+  "success": true,
+  "projectFilePath": "/Users/rupal/Documents/work/ML-alpha/Assets/MyCSharpProject.csproj",
+  "expectedPackageFiles": [
+    "/Users/rupal/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/Users/rupal/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/rupal/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.24/microsoft.netcore.app.host.osx-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
